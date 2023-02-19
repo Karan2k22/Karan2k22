@@ -10,12 +10,15 @@
     min-height: 100vh;
     box-sizing: border-box;
 }
+
+
 .header-text {
     display: flex;
     flex-direction: column;
     text-align: center;
     color: white;
 }
+
 
 .splash-image {
     display: flex;
@@ -27,6 +30,8 @@
     /* justify-content: center; */
     /* align-content: center;
     margin: 50rem;*/
+    display: flex;
+    justify-content: center;
     margin-bottom: 100px;
 } 
 .home-btn{
@@ -37,18 +42,19 @@
     height: 40px;
     text-align: center;
     border-radius: 20px;
-    background: white;
+    background: rgb(29, 29, 29);
     margin: 10px;
     box-shadow: 0 5px 5px black;
     text-decoration: none;
-    border: 5px black;
+    border: 2px solid rgb(231, 227, 227);
     padding: 5px;
-    color: black;
+    color: rgb(199, 189, 189);
     font-weight: 600;
     
 }
 .nav1:hover{
-background: #03d6f3 ;
+background: #caf0f5 ;
+color: black;
 }
 
 @media (max-width:500px){
@@ -57,5 +63,8 @@ background: #03d6f3 ;
     }
     .home-btn{
         display: flex;
+    }
+    .home_head{
+        padding: 0;
     }
 }

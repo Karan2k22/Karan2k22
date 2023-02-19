@@ -1,0 +1,12 @@
+.card{
+    background: #151823;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center;
+    align-items: center; */
+    /* overflow-y: auto; */
+    padding: 60px ;
+    min-height: 80vh;
+    /* box-sizing: border-box; */
+
+}

@@ -12,10 +12,10 @@ const About = () => {
 
         <div className="about-card-head">
           <div className="about-card">
-            <h4> Data Analyst</h4>
+            <h4> Devlopement</h4>
             <p>
-              Data Analyst with more then 2 years of experience in the field of
-              Medical sciences and Medicine
+             Ambitious React Frontend Developer enthusiastic to learn and explore new technologies.One Year of Practial experiance in coding, and building numerous websites and applications.
+             Strongly intersted in obtaining a backend Developer position to create impactful and scalable products. 
             </p>
           </div>
 
@@ -23,7 +23,7 @@ const About = () => {
             <h4>Teacher</h4>
             <p>
               Teaching is my passion, till now, I've taught many of students
-              about Biology, History and Biotechnology.
+              about  Basic Computer, Programming.
             </p>
           </div>
 

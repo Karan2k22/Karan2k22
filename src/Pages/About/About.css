@@ -8,9 +8,11 @@
     padding: 100px 10%;
     min-height: 100vh;
     box-sizing: border-box;
+ 
 }
 .about_imge{
     height: 25%;
+    
 }
 .about-card-head{
         justify-content: space-between;
@@ -26,6 +28,7 @@
         color: white;
         height: 25vh;
         width: 400px;
+        border: 2px solid white;
 }
 @media (max-width:500px){
     .about-head{

@@ -21,11 +21,11 @@ const Footer = () => {
             <div className='container2'>
                 <h3 className='sub_head1'>FOLLOW ME:</h3>
                 <div>
-                <a className='icon' href='https://github.com/Karan2k22'><AiOutlineGithub/></a>
-                <a className='icon' href='https://www.linkedin.com/in/karan-kumar-b74906240/'><BsLinkedin/></a>
+                <a className='icon' href='https://github.com/Karan2k22'  target="_blank"><AiOutlineGithub/></a>
+                <a className='icon' href='https://www.linkedin.com/in/karan-kumar-b74906240/'  target="_blank"><BsLinkedin/></a>
                 {/* <a className='icon' href='/'><BsInstagram/></a>
                 <a className='icon' href='/'><FaFacebookF/></a> */}
-                <a className='icon' href='https://web.whatsapp.com/'><BsWhatsapp/></a>
+                <a className='icon' href='https://web.whatsapp.com/'  target="_blank"><BsWhatsapp/></a>
                 </div>
             </div>
         </div>

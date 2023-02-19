@@ -9,7 +9,7 @@ const Home = () => {
     <>
     <div className="home_head">
       <div className="header-text">
-        <h2 style={{ color: "white", fontWeight: "800px" }}>Welcome to my! </h2>
+        <h2 style={{ color: "white", fontWeight: "800px" }}>Welcome to my Portfolio! </h2>
         <p>
           {" "}
           Hello there, I am Karan Kumar Rajak. I love experimenting with the web
@@ -19,7 +19,7 @@ const Home = () => {
         <Link to="/about?me" className="home-nav nav1">
           <p>Know more about me</p>
         </Link>
-        <Link to="/Contact" className="home-nav nav1">
+        <Link to="/Project" className="home-nav nav1">
           <p>My Projects</p>
         </Link>
       </div>

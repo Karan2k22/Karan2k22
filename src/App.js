@@ -11,6 +11,7 @@ import Contact from "./Pages/Contact/Contact.js";
 import NAv1 from './Components/n1/NAv1.js';
 import Footer1 from "./Components/Footer1/Footer1.js";
 import Project from './Pages/Projects/Project';
+// import Code from './Pages/Exp/Code';
 const App = () => {
   return (
     <>
@@ -22,6 +23,7 @@ const App = () => {
        <Routes>
         
          {/* <Route path='/' element={<NAv1/>}/> */}
+         {/* <Route path='//' element={<Code/>}/> */}
          <Route path='/Home' element={<Home/>}/>
          <Route path='/About' element={<About/>}/>
          <Route path='/Skill' element={<Skills/>}/>
