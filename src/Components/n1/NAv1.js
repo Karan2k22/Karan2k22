@@ -15,7 +15,7 @@ const showNavBar = () => {
   <header>
     <h3>Portfolio</h3>
     <nav ref={navref}>
-        <a href='/Home'>Home</a>
+        <a href='/'>Home</a>
         <a href='/About'>About</a>
         <a href='/Skill'>Skills</a>
         <a href='/Project'>Project</a>

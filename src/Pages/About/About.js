@@ -6,8 +6,8 @@ const About = () => {
   return (
     <>
       <div className="about-head">
-        <div>
-          <img src={profile} alt="animation" className="about_imge" />
+        <div className="">
+          <img src={profile} alt="animation" className="about_imge " />
         </div>
 
         <div className="about-card-head">
@@ -27,14 +27,14 @@ const About = () => {
             </p>
           </div>
 
-          <div className="about-card">
+          {/* <div className="about-card">
             <h4> Art lover</h4>
             <p>
               I'm obsessed with making things and even more obsessed with making
               things better. I've been in the business of creating since i hung
               my first painting on the wall when i was 7.
             </p>
-          </div>
+          </div> */}
         </div>
       </div>
     </>

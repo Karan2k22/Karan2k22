@@ -20,22 +20,15 @@ const My_Skill = () => {
         </div>
 
         <div
-          style={{
-            justifyContent: "center",
-            alignItem: "center",
-            textAlign:"center"
-            // display: "flex",
-          }}
+       className="body"
         >
-          <div style={{ margin: "20px" }}>
-            <img style={{margin:"10px 20px 10px 20px"}} src={html} alt="html" />
-            <img style={{margin:"10px 20px 10px 20px"}} src={css} alt="CSS" />
-            <img style={{margin:"10px 20px 10px 20px"}} src={js} alt="Java Script" />
-          {/* </div> */}
-          {/* <div style={{ margin: "20px", padding: "33px" }}> */}
-            <img style={{margin:"10px 20px 10px 20px"}} src={react} alt="React Js" />
-            <img style={{margin:"10px 20px 10px 20px"}} src={redux} alt="Redux" />
-            <img style={{margin:"10px 20px 10px 20px"}} width="120px" src={git} alt="Git" />
+          <div className="body1">
+            <img className="image"  src={html} alt="html" />
+            <img className="image"  src={css} alt="CSS" />
+            <img className="image" src={js} alt="Java Script" />
+            <img className="image" src={react} alt="React Js" />
+            <img className="image" src={redux} alt="Redux" />
+            <img className="image" width="120px" src={git} alt="Git" />
           </div>
         </div>
       </div>

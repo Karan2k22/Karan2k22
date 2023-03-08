@@ -72,3 +72,15 @@
     }
 } */
 
+@media (max-width:500px){
+    .sub_head {
+        font-size: 18px;
+    }
+    .sub_head1 {
+        font-size: 18px;
+
+    }
+    .container1 {
+        margin: 0 ;
+    }
+}
