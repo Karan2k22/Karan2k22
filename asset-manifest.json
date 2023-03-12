@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Karan2k22/static/css/main.f1592a68.css",
-    "main.js": "/Karan2k22/static/js/main.973fd0f6.js",
+    "main.js": "/Karan2k22/static/js/main.a2f5cef0.js",
     "static/js/787.128fc6e9.chunk.js": "/Karan2k22/static/js/787.128fc6e9.chunk.js",
     "static/media/homeanimi.gif": "/Karan2k22/static/media/homeanimi.f372ef867ab6dc71a52b.gif",
     "static/media/Portfolio.png": "/Karan2k22/static/media/Portfolio.12cf03a32be4ae9e8410.png",
@@ -11,11 +11,11 @@
     "static/media/react.png": "/Karan2k22/static/media/react.7e9e8696236ea972d4f5.png",
     "index.html": "/Karan2k22/index.html",
     "main.f1592a68.css.map": "/Karan2k22/static/css/main.f1592a68.css.map",
-    "main.973fd0f6.js.map": "/Karan2k22/static/js/main.973fd0f6.js.map",
+    "main.a2f5cef0.js.map": "/Karan2k22/static/js/main.a2f5cef0.js.map",
     "787.128fc6e9.chunk.js.map": "/Karan2k22/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f1592a68.css",
-    "static/js/main.973fd0f6.js"
+    "static/js/main.a2f5cef0.js"
   ]
 }
