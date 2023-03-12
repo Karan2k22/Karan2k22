@@ -23,12 +23,39 @@ const My_Skill = () => {
        className="body"
         >
           <div className="body1">
-            <img className="image"  src={html} alt="html" />
-            <img className="image"  src={css} alt="CSS" />
-            <img className="image" src={js} alt="Java Script" />
-            <img className="image" src={react} alt="React Js" />
-            <img className="image" src={redux} alt="Redux" />
-            <img className="image" width="120px" src={git} alt="Git" />
+            {/* section 1 */}
+            <div className="section">
+
+            <div className="section_side">
+            <img className="tech_image"  src={html} alt="html"  />
+
+            </div>
+            <div className="section_side">
+            <img className="tech_image"  src={css} alt="CSS" />
+
+            </div>
+            </div>
+
+            {/* Section 2 */}
+            <div className="section">
+            <div className="section_side">
+            <img className="tech_image" src={js} alt="Java Script" />
+            </div>
+            <div className="section_side">
+            <img className="tech_image" src={react} alt="React Js" />
+            </div>
+            </div>
+            
+{/* //section 3 */}
+            <div className="section">
+            <div className="section_side">
+            <img className="tech_image" src={redux} alt="Redux" />
+            </div>
+            <div className="section_side">
+            <img className="tech_image" width="120px" src={git} alt="Git" />
+            </div>
+            </div>
+            
           </div>
         </div>
       </div>

@@ -73,10 +73,16 @@ font-size: 18px;
     background: none;
     color: white;
 }
+.form_m {
+  margin-top: 30px;
+}
   @media screen and (max-width: 600px) {
     .col-25, .col-75, input[type=submit] {
       width: 100%;
       margin-top: 0;
+    }
+    .form_m {
+      margin-top: 10;
     }
   }
 

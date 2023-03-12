@@ -6,13 +6,13 @@ const About = () => {
   return (
     <>
       <div className="about-head">
-        <div className="">
+        
           <img src={profile} alt="animation" className="about_imge " />
-        </div>
 
-        <div className="about-card-head">
+
+        <div style={{marginBottom:"20px"}} >
           <div className="about-card">
-            <h4> Devlopement</h4>
+            <h3> Devlopement</h3>
             <p>
              Ambitious React Frontend Developer enthusiastic to learn and explore new technologies.One Year of Practial experiance in coding, and building numerous websites and applications.
              Strongly intersted in obtaining a backend Developer position to create impactful and scalable products. 
@@ -20,7 +20,7 @@ const About = () => {
           </div>
 
           <div className="about-card">
-            <h4>Teacher</h4>
+            <h3>Teacher</h3>
             <p>
               Teaching is my passion, till now, I've taught many of students
               about  Basic Computer, Programming.

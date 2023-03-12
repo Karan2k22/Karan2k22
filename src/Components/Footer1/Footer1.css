@@ -30,6 +30,7 @@
 .link_item{
     letter-spacing: 2px;
     margin: 0 0 20px 35px;
+    text-decoration: none;
 }
 .link_item:hover{
     color: #51e8ef;

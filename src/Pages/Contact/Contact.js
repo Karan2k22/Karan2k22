@@ -44,7 +44,7 @@ setmessage("");
 
   return (
     <div className="contact_container">
-    <form style={{marginTop: "50px"}} ref={form} onSubmit={(e) => {
+    <form className="form_m" ref={form} onSubmit={(e) => {
       e.preventDefault();
  if(name === "") {
   alert("Please Enter Your Name");

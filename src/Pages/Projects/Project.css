@@ -1,5 +1,70 @@
 .container {
     background: #151823;
     color: white;
-    min-height: 80vh;
+    min-height: 65vh;
+    /* height: 100%; */
+    padding: 0 7px 0 7px;
+    align-items:center ;
+    text-align: center;
+}
+.header {
+    margin: 0 20px 20px  20px;
+}
+.image_container {
+    position: relative;
+    /* width: 50%;
+    max-width: 300px; */
+  }
+.image {
+     width: 100%;
+    max-width: 400px; 
+    height: auto; 
+    cursor: pointer;
+}
+.overlay {
+    position: absolute; 
+    bottom: 0; 
+    /* background: rgb(0, 0, 0); */
+    background:rgb(57 55 55 / 50%);
+    /* background: white; */
+    color: #f1f1f1; 
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    margin-left: 18px;
+  }
+  .image_container:hover .overlay {
+    opacity: 1;
+  }
+.box1 {
+    display: flex;
+    /* justify-content: space-between; */
+    padding: 20px;
+    margin-bottom: 30px;
+    text-align: justify;
+    background-color: rgb(72, 72, 72);
+    border-radius: 10px;
+    /* margin: 40px; */
+}
+
+.box1_text_side {
+    background: #646664;
+     text-align:center;
+     align-items:center ;
+     padding:10px;
+     height:auto;
+}
+
+.box2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    text-align: justify;
+    background-color: rgb(72, 72, 72);
+    border-radius: 10px;
+    margin: 40px;
 }

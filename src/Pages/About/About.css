@@ -1,25 +1,16 @@
 .about-head{
     background: #151823;
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* padding: 100px 10%; */
-    min-height: 100vh;
+    height: auto; 
     box-sizing: border-box;
- 
-}
-.about_img {
-
+    padding: 20px;
 }
 .about_imge{
     width: auto;
     height: 20%;
-    
-}
-.about-card-head{
-        /* justify-content: space-between; */
-        padding: 20px;
-        /* margin: 0 0 0 40px; */
     
 }
 .about-card {
@@ -30,7 +21,7 @@
         color: white;
         height: 25vh;
         width: 600px;
-        border: 2px solid white;
+        border: 5px solid white;
 }
 @media (max-width:500px){
     .about-head {
@@ -39,11 +30,13 @@
     }
    .about-card {
     width: auto;
+    height: auto;
     margin-bottom: 10px;
     padding: 15px;
     font-size: 12.5px;
    }
    .about_imge {
+    margin-top: 0;
     width: 280px;
     height: 12%;
 

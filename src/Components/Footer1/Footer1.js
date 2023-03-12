@@ -12,10 +12,19 @@ const Footer = () => {
         <div className='footer'>
             <div className='container1'>
                 <h3 className='sub_head'>QUICK LINKS:</h3>
-             <h4 className='link_item'>Home</h4>
-             <h4 className='link_item'>About</h4>
-             <h4 className='link_item'>Contact</h4>
-             <h4 className='link_item'>Projects</h4>
+             <h4 className='link_item'>
+              <a href='/' style={{textDecoration:"none",color:"white"}}>Home</a>
+              </h4>
+             <h4 className='link_item'>
+             <a href='/About' style={{textDecoration:"none",color:"white"}}>About</a>              
+             </h4>
+             <h4 className='link_item'>
+             <a href='/Contact' style={{textDecoration:"none",color:"white"}}>Contact</a>
+</h4>
+             <h4 className='link_item'>
+             <a href='/Project' style={{textDecoration:"none",color:"white"}}>Projects</a>
+
+              </h4>
             </div>
 
             <div className='container2'>
