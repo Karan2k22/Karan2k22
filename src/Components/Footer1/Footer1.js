@@ -5,6 +5,7 @@ import {BsLinkedin} from "react-icons/bs";
 import {BsInstagram} from "react-icons/bs";
 import {FaFacebookF} from "react-icons/fa";
 import {BsWhatsapp} from "react-icons/bs";
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -13,16 +14,16 @@ const Footer = () => {
             <div className='container1'>
                 <h3 className='sub_head'>QUICK LINKS:</h3>
              <h4 className='link_item'>
-              <a href='/' style={{textDecoration:"none",color:"white"}}>Home</a>
+              <Link to='/' style={{textDecoration:"none",color:"white"}}>Home</Link>
               </h4>
              <h4 className='link_item'>
-             <a href='/About' style={{textDecoration:"none",color:"white"}}>About</a>              
+             <Link to='/About' style={{textDecoration:"none",color:"white"}}>About</Link>              
              </h4>
              <h4 className='link_item'>
-             <a href='/Contact' style={{textDecoration:"none",color:"white"}}>Contact</a>
+             <Link to='/Contact' style={{textDecoration:"none",color:"white"}}>Contact</Link>
 </h4>
              <h4 className='link_item'>
-             <a href='/Project' style={{textDecoration:"none",color:"white"}}>Projects</a>
+             <Link to='/Project' style={{textDecoration:"none",color:"white"}}>Projects</Link>
 
               </h4>
             </div>
